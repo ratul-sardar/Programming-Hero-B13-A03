@@ -1,3 +1,5 @@
+// https://docs.google.com/document/d/1-2-Lhf5La5w4PSMMCF3UW0MULlAQa2AT6HyUTyU4CEc/preview?pru=AAABnFdgI-g*Rqwhqj-4zFEI6tXi9Rx1eA&tab=t.0#
+
 // function newPrice(currentPrice, discount) {
 //   let isPriceNumber = typeof currentPrice == "number" ? true : false;
 //   let isDiscountNumber = typeof discount == "number" ? true : false;
@@ -23,3 +25,7 @@
 //     return "Invalid";
 //   }
 // }
+
+function finalScore(omr) {}
+
+console.log(finalScore({ right: 67, wrong: 23, skip: 10 }));
