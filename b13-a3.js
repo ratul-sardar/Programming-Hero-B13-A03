@@ -6,7 +6,7 @@
 
 //   if (isPriceNumber && isDiscountNumber && discount >= 0 && discount <= 100) {
 //     let totalDiscount = (currentPrice * discount) / 100;
-//     let discountPrice = currentPrice - totalDiscount;
+//     let discountPrice = (currentPrice - totalDiscount).toFixed(3);
 
 //     return discountPrice;
 //   } else {
@@ -46,4 +46,29 @@
 //   } else {
 //     return "Invalid";
 //   }
+// }
+
+// function gonoVote(array) {
+//     let haCount = 0;
+//     let naCount = 0;
+
+//     if(Array.isArray(array)){
+//         for(let vote of array){
+//             if(vote === "ha"){
+//                 haCount ++
+//             }else if(vote === "na"){
+//                 naCount ++;
+//             }
+//         }
+
+//         if(haCount > naCount){
+//             return true;
+//         }else if(haCount === naCount){
+//             return "equal";
+//         }else{
+//             return false;
+//         }
+//     }else{
+//         return "Invalid";
+//     }
 // }
