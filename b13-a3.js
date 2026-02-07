@@ -26,6 +26,24 @@
 //   }
 // }
 
-function finalScore(omr) {}
+// function finalScore(omr) {
+//   const omrArray = Object.keys(omr);
+//   const rightAnswers = omr[omrArray[0]];
+//   const wrongAnswers = omr[omrArray[1]];
+//   const wrongAnswersValue = wrongAnswers * 0.5;
 
-console.log(finalScore({ right: 67, wrong: 23, skip: 10 }));
+//   let totalMark = 0;
+//   let examMark;
+
+//   for (let number of omrArray) {
+//     totalMark += omr[number];
+//   }
+
+//   if (totalMark === 100 && typeof omr == "object") {
+//     examMark = Math.round(rightAnswers - wrongAnswersValue);
+
+//     return examMark;
+//   } else {
+//     return "Invalid";
+//   }
+// }
